@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XO6eQgsD/LIPuVUy7PHGkoehLfJsb14a+51auilXkh6ArfY+wVE3VBwYtez70ke2uQHbB3WdJFOMqCKS2ZEwBg==",
+  "success": true,
+  "projectFilePath": "/Users/jakubkindracki/RiderProjects/LAB5_AiSD2/labirynt/labirynt.csproj",
+  "expectedPackageFiles": [
+    "/Users/jakubkindracki/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/Users/jakubkindracki/.nuget/packages/microsoft.netframework.referenceassemblies.net471/1.0.3/microsoft.netframework.referenceassemblies.net471.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,13 @@
+/Users/jakubkindracki/RiderProjects/LAB5_AiSD2/labirynt/bin/Debug/net4.7.1/labirynt.exe.config
+/Users/jakubkindracki/RiderProjects/LAB5_AiSD2/labirynt/bin/Debug/net4.7.1/labirynt.exe
+/Users/jakubkindracki/RiderProjects/LAB5_AiSD2/labirynt/bin/Debug/net4.7.1/labirynt.pdb
+/Users/jakubkindracki/RiderProjects/LAB5_AiSD2/labirynt/bin/Debug/net4.7.1/Graphs.dll
+/Users/jakubkindracki/RiderProjects/LAB5_AiSD2/labirynt/bin/Debug/net4.7.1/TestSet.dll
+/Users/jakubkindracki/RiderProjects/LAB5_AiSD2/labirynt/obj/Debug/net4.7.1/labirynt.csproj.AssemblyReference.cache
+/Users/jakubkindracki/RiderProjects/LAB5_AiSD2/labirynt/obj/Debug/net4.7.1/labirynt.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jakubkindracki/RiderProjects/LAB5_AiSD2/labirynt/obj/Debug/net4.7.1/labirynt.AssemblyInfoInputs.cache
+/Users/jakubkindracki/RiderProjects/LAB5_AiSD2/labirynt/obj/Debug/net4.7.1/labirynt.AssemblyInfo.cs
+/Users/jakubkindracki/RiderProjects/LAB5_AiSD2/labirynt/obj/Debug/net4.7.1/labirynt.csproj.CoreCompileInputs.cache
+/Users/jakubkindracki/RiderProjects/LAB5_AiSD2/labirynt/obj/Debug/net4.7.1/labirynt.csproj.CopyComplete
+/Users/jakubkindracki/RiderProjects/LAB5_AiSD2/labirynt/obj/Debug/net4.7.1/labirynt.exe
+/Users/jakubkindracki/RiderProjects/LAB5_AiSD2/labirynt/obj/Debug/net4.7.1/labirynt.pdb

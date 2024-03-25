@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "01zf4TfZUeGt4SrT9sQxcCenm6nFDNIbis4cZd1QAn1/VdshKKQRtGxHnQOgyHTjv+lEjC6CqUs7ivTATSajQg==",
+  "success": true,
+  "projectFilePath": "/Users/jakubkindracki/RiderProjects/LAB5_AiSD2/nowe_sciezki/nowe_sciezki.csproj",
+  "expectedPackageFiles": [
+    "/Users/jakubkindracki/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/Users/jakubkindracki/.nuget/packages/microsoft.netframework.referenceassemblies.net471/1.0.3/microsoft.netframework.referenceassemblies.net471.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
