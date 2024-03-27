@@ -11,3 +11,4 @@
 /Users/jakubkindracki/RiderProjects/LAB5_AiSD2/labirynt/obj/Debug/net4.7.1/labirynt.csproj.CopyComplete
 /Users/jakubkindracki/RiderProjects/LAB5_AiSD2/labirynt/obj/Debug/net4.7.1/labirynt.exe
 /Users/jakubkindracki/RiderProjects/LAB5_AiSD2/labirynt/obj/Debug/net4.7.1/labirynt.pdb
+/Users/jakubkindracki/RiderProjects/LAB5_AiSD2/labirynt/obj/Debug/net4.7.1/labirynt.sourcelink.json

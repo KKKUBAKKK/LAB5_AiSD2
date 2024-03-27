@@ -353,7 +353,7 @@ namespace ASD
             string m8 = m8SB.ToString();
 
             string[] mazes = new string[] { m1, m2, m3, m4, m5, m6, m7, m8 };
-
+            
             //--- Wersja I ---
             TestSets["v1Tests"] = new TestSet(new Maze(), "Wersja I", null, false);
             int[] v1ExpectedValues = new int[] { 16, -1, 1, 7, 152, 130, 34, -1 };
@@ -389,7 +389,7 @@ namespace ASD
     {
         static void Main(string[] args)
         {
-            bool checkPath = true;
+            bool checkPath = false;
 
             Lab06TestModule lab06test = new Lab06TestModule(checkPath);
             lab06test.PrepareTestSets();
