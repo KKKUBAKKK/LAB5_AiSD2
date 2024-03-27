@@ -66,7 +66,82 @@ namespace ASD
 
         public List<int> WeightedWidePath(DiGraph<int> G, int start, int end, int[] weights, int maxWeight)
         {
-            return new List<int>();
+            int[] prev = new int[G.VertexCount];
+            int endTime = 0;
+            int width = Int32.MinValue;
+            
+            List<int> path = new List<int>();
+
+            // for (int k = maxWeight; k > 0; k--)
+            for (int k = 1; k <= maxWeight; k++)
+            {
+                SafePriorityQueue<int, int> queue = new SafePriorityQueue<int, int>();
+                
+                int[] currTime = new int[G.VertexCount];
+                for (int i = 0; i < currTime.Length; i++)
+                    currTime[i] = Int32.MinValue;
+                
+                int[] currPrev = new int[G.VertexCount];
+                int[] currWidth = new int[G.VertexCount];
+
+                currTime[start] = 0;
+                currWidth[start] = Int32.MaxValue;
+                queue.Insert(start, 0);
+                while (queue.Count > 0)
+                {
+                    var v = queue.Extract();
+                    if (v == end || currTime[v] == Int32.MinValue)
+                        break;
+
+                    foreach (var n in G.OutNeighbors(v))
+                    {
+                        if (G.GetEdgeWeight(v, n) >= k)
+                        {
+                            if (currTime[n] == Int32.MinValue)
+                            {
+                                currTime[n] = currTime[v] + weights[n];
+                                currPrev[n] = v;
+                                currWidth[n] = (G.GetEdgeWeight(v, n) > currWidth[v])
+                                    ? currWidth[v] : G.GetEdgeWeight(v, n);
+                                queue.Insert(n, currTime[n]);
+                            }
+                            else if (currTime[n] > currTime[v] + weights[n])
+                            {
+                                currTime[n] = currTime[v] + weights[n];
+                                currPrev[n] = v;
+                                currWidth[n] = (G.GetEdgeWeight(v, n) > currWidth[v])
+                                    ? currWidth[v] : G.GetEdgeWeight(v, n);
+                                queue.UpdatePriority(n, currTime[n]);
+                            }
+                        }
+                    }
+                }
+
+                if (width - endTime < currWidth[end] - currTime[end] && currTime[end] != Int32.MinValue)
+                // if (width - endTime < k - currTime[end] && currTime[end] != Int32.MinValue)
+                {
+                    width = currWidth[end];
+                    endTime = currTime[end];
+                    prev = currPrev;
+                    if (k != width)
+                        k = width - 1;
+                    // break;
+                }
+            }
+
+            if (endTime == Int32.MinValue)
+                return path;
+            
+            int p = end;
+            while (p != start || p != 0)
+            {
+                path.Add(p);
+                p = prev[p];
+            }
+            path.Add(start);
+            path.Reverse();
+            
+            return path;
         }
     }
 }
