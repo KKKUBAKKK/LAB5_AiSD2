@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("nowe_sciezki")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab5952cb717876bb4ad1c232cf9ac324d16a6dee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("nowe_sciezki")]
 [assembly: System.Reflection.AssemblyTitleAttribute("nowe_sciezki")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
